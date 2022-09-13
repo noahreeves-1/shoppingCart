@@ -1,0 +1,67 @@
+:root {
+  --nav-background-color: rgb(245, 245, 245);
+}
+
+img {
+  border-style: none;
+}
+
+.app-wrapper {
+  margin: 0 auto;
+  width: 1080px;
+  max-width: 1080px;
+}
+
+/* NAV */
+.nav-wrapper {
+  background-color: var(--nav-background-color);
+  width: 100%;
+  max-height: 50px;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  width: 1080px;
+  max-width: 1080px;
+}
+
+.nav-options-container {
+  display: flex;
+  align-items: center;
+  gap: 120px;
+}
+
+.company-logo {
+  max-height: 50px;
+}
+
+.go-home-button {
+  display: flex;
+  align-items: center;
+  border: none;
+  background-color: var(--nav-background-color);
+  margin: 0px;
+  padding: 0px;
+  height: 100%;
+}
+
+.company-name {
+  font-size: 20px;
+}
+
+.store-icon-button {
+  height: 45px;
+  width: 45px;
+  border: none;
+  background: none;
+}
+
+.shopping-cart-icon-button {
+  height: 45px;
+  width: 45px;
+  border: none;
+  background: none;
+}
+
+/* HOME */
